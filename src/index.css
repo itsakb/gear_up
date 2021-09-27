@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Appbody {
+  min-height: 100vh;
+}
+
+.Header {
+  background-color: white;
+}
+
+.logo {
+  height: 50px;
+  margin: 2px;
+}
+
+.Box {
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.Footer {
+  background-color: #b4ccf4;
+  position:sticky;
+  top: 100%;
+}
+
+.Search {
+  background-color: #ebf5ff;
+}
+
+.Table {
+  padding: 40px;
+  margin: 40px;
+  border: 10px;
+  border-color: gray;
+  background-color: #ebf5ff;
+}
+
+.Table th {
+  text-align: center;
+  padding: 20px;
+}
+
+.Table td {
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+}
+
+.ftd {
+ text-align: right; 
+}
+
+.ttd {
+  text-align: left;
+}
+
+.err {
+  margin-left: auto;
+  text-align: center;
+}
+
+.Error {
+  text-align: center;
+}
+
+.Error-btn {
+  background-color: #4299e1
+  ;
+  height: 80px;
+  width: 100px;
+  border-radius: 10px;
+}
